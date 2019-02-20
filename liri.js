@@ -27,7 +27,8 @@ inquirer
                     {
                         type: "input",
                         message: "What is your song choice?",
-                        name: "name"
+                        name: "name",
+                        default: "The sign, Ace Of Base"
                     },
                 ])
                 .then(function (inquirerResponse) {
@@ -47,12 +48,10 @@ inquirer
                             fs.appendFile("log.txt", song, function (err) {
                                 if (err)
                                     console.log(err)
-
                             })
                         });
                 });
         }
-
         // if statement for omdb and argument
         else if (inquirerResponse.choice === "movie-this") {
             inquirer
