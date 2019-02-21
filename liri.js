@@ -59,7 +59,8 @@ inquirer
                     {
                         type: "input",
                         message: "What is the movie name?",
-                        name: "name"
+                        name: "name",
+                        default: "Die Hard"
                     },
                 ])
                 .then(function (inquirerResponse) {
@@ -97,7 +98,8 @@ inquirer
                     {
                         type: "input",
                         message: "What concert do you want to see?",
-                        name: "name"
+                        name: "name",
+                        default: "Snoop Dog"
                     },
                 ])
                 .then(function (inquirerResponse) {
