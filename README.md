@@ -8,17 +8,17 @@ If you choose spotify-this-song, enter a song name and see the results. Will def
 If you choose do-what-it-says, liri will give you something of its choice.
 
 I used these node library's
-Dot env
-spotify api
-fs
-inquirer
-axios 
-moment
+Dot env,
+spotify api,
+fs,
+inquirer,
+axios,
+moment,
 
 There was 3 api's used
-spotify
-omdb
-bands in town
+spotify,
+omdb,
+bands in town,
 
 video tour of how app works
 https://youtu.be/Sg9ZMeZbi5Y
