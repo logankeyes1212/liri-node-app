@@ -19,3 +19,6 @@ There was 3 api's used
 spotify
 omdb
 bands in town
+
+video tour of how app works
+https://youtu.be/Sg9ZMeZbi5Y
